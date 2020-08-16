@@ -13,7 +13,7 @@ class Cell extends React.Component {
 
     changeColorHandler = () => {
         this.setState({
-            color : #333
+            color : "#333"
         })
     }
 
