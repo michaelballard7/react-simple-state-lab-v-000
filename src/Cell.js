@@ -13,7 +13,7 @@ class Cell extends React.Component {
 
     render (
         return (
-            <div className="cell"> </div>
+            <div className="cell" style={{backgroundColor: this.state.color}}> </div>
         )
     )
 }
