@@ -10,4 +10,10 @@ class Cell extends React.Component {
     this.state = {
         color : this.props.value
     }
+
+    render (
+        return (
+            <div className="cell"> </div>
+        )
+    )
 }
